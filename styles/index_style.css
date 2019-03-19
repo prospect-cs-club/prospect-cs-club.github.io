@@ -7,21 +7,69 @@ body {
 /* Navigation Bar */
 .navigation {
   font-family: 'Viga', sans-serif;
+  font-size: 24px;
   color: white;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  align-content: space-between;
+  display: inline-flex;
   width: 100%;
   margin: 0;
   padding: 0;
-  height: 200px;
+  height: 100px;
   background-color: #262626;
 }
 
 .navigation a {
   text-decoration: none;
   display: inline-block;
+}
+
+.navigation .centerNav {
+  font-size: 36px;
+  width: 20%;
+  height: 80px;
+  text-align: center;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 15px solid green;
+  border-bottom: 15px solid green;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+
+.navigation .centerNav a {
+  color: white;
+}
+
+.navigation .smallnavbar {
+  background-color: blue;
+  text-align: center;
+  width: 40%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation .smallnavbar a {
+  margin: auto 20px;
+  color: white;
+}
+
+/* Main Content */
+.itemBlock {
+  margin: 50px auto;
+  padding: 25px;
+  width: 70%;
+  background-color: #999;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+#main h1 {
+  margin: 0;
 }
