@@ -1,0 +1,133 @@
+/* Footer */
+
+footer {
+  margin-top: 20px;
+  width: 100%;
+  display: block;
+  height: 200px;
+  background-color: cyan;
+  position: static;
+  font-size: 20px;
+}
+
+#leftFooter {
+  width: 50%;
+  height: 200px;
+  margin: auto 0;
+  position: absolute;
+  display: inline-block;
+  left: 60px;
+}
+
+
+#rightFooter {
+  position: absolute;
+  display: inline-block;
+  right: 60px;
+  text-align: right;
+}
+
+#rightFooter p {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+/* Join the Club Form */
+
+#leftFooter p {
+  font-size: 48px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+#leftFooter form {
+  height : 28px;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+
+#leftFooter input,
+#leftFooter button {
+  float: left;
+}
+
+#leftFooter input {
+  margin: 0;
+  padding: 0;
+  border: 2px solid gray;
+  border-radius: 15px;
+  border-right: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  width: 470px;
+  height: 28px;
+  font-size: 24px;
+  font-family: 'Viga';
+  text-align: left;
+  padding-left: 10px;
+  overflow-x: hidden;
+
+}
+
+#leftFooter button {
+  top: 0;
+  margin: 0;
+  padding: 0;
+  border: 2px solid gray;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  width: 150px;
+  height: 32px;
+  font-size: 20px;
+  padding: auto;
+  font-family: 'Viga';
+  align: center;
+  -webkit-transition: background-color 0.75s ease-out;
+  -ms-transition: background-color 0.75s ease-out;
+  transition: background-color 0.75s ease-out;
+}
+
+#leftFooter button:hover {
+  cursor: pointer;
+  background-color: DimGrey;
+  -webkit-transition: background-color 0.75s ease-in;
+  -ms-transition: background-color 0.75s ease-in;
+  transition: background-color 0.75s ease-in;
+}
+
+#leftFooter button:focus {
+  outline: 0;
+}
+
+/* Social Media Links */
+
+.imgIcons {
+  margin-left: 15px;
+  margin-right: 0;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 9px;
+  padding-right: 0;
+  float: right;
+}
+
+#githubLink,
+#instagramLink {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  margin: auto;
+}
+
+#githubLink:hover,
+#instagramLink:hover {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#instagramLink img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
