@@ -6,8 +6,9 @@
   width: 100%;
   padding: 300px 0;
   text-align: center;
-  background-image: url(https://media.giphy.com/media/9PrqNHPAdWyJVOXntF/giphy.gif);
+  background-image: url();
   background-size: contain;
+  box-shadow: inset 5px black;
 }
 
 #clubName {
