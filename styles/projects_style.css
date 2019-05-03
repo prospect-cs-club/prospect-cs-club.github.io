@@ -1,0 +1,44 @@
+#container {
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+#subcontainer {
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+  justify-content: center;
+}
+
+#current,
+#future,
+#completed {
+  margin: 0 10px;
+  padding: 20px 10px;
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+  background-color: red;
+  white-space: normal;
+  vertical-align: top;
+}
+
+#container ul {
+  margin: 0;
+  padding: 20px;
+}
+
+#container li {
+  font-size: 22px;
+  list-style-type: none;
+}
+
+#container h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 48px;
+}

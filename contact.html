@@ -7,7 +7,7 @@
   <!--<meta http-equiv="refresh" content="5">-->
   <title>Prospect CS Club: Contact Us</title>
   <link href="https://fonts.googleapis.com/css?family=Viga" rel="stylesheet">
-  <link href="styles/index_style.css" rel="stylesheet">
+  <link href="styles/contact_style.css" rel="stylesheet">
   <link href="styles/general_style.css" rel="stylesheet">
   <link href="styles/nav_style.css" rel="stylesheet">
   <link href="styles/footer_style.css" rel="stylesheet">
@@ -32,9 +32,11 @@
     </div>
   </nav>
 
-  <div id="contact">
-    <h1>Contact Us</h1>
-    <div>
+  <div id="container">
+    <h1 id="title">Contact Us</h1>
+    <p id="note">If you have any club-related questions, contact the Club President or
+      send an email to the club's email.</p>
+    <div id="subcontainer">
       <div id="president">
         <img src="#" alt="Headshot of Justin Pong, CS Club President">
         <h2>Justin Pong, Club President</h2>
@@ -60,8 +62,26 @@
         <p>School Email: N/A</p>
       </div>
     </div>
+
     <footer>
-      <p>Footer stuff</p>
+      <script> </script> <!-- Fixes the bug of CSS transition being fired after page loads -->
+      <div id="leftFooter">
+        <p>If this club interests you, sign up!</p>
+        <form>
+          <input type="text" name="email" placeholder="Enter in your email to get added to the list!">
+          <button type="button">Join the Club!</button>
+        </form>
+      </div>
+      <div id="rightFooter">
+        <p>prospectcsclub@gmail.com</p>
+        <p>Room 42<br>18900 Prospect Road<br>Saratoga CA 95070</p>
+        <div class="imgIcons">
+          <a id="githubLink" href="#"><img src="images/GitHub-Mark-32px.png"></a>
+        </div>
+        <div class="imgIcons">
+          <a id="instagramLink" href="#"><img src="images/InstagramLogo.png"></a>
+        </div>
+      </div>
     </footer>
   </div>
 

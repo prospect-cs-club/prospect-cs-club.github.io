@@ -6,7 +6,8 @@ footer {
   display: block;
   height: 200px;
   background-color: cyan;
-  position: static;
+  position: relative;
+  bottom: -20px;
   font-size: 20px;
 }
 

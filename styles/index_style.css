@@ -1,11 +1,11 @@
 /* Main Title */
 
 #mainTitle {
-  font-size: 42px;
   margin: 0;
   width: 100%;
   padding: 300px 0;
   text-align: center;
+  background-color: LightSkyBlue;
   background-image: url();
   background-size: contain;
   box-shadow: inset 5px black;
@@ -13,9 +13,11 @@
 
 #clubName {
   margin: 0;
+  font-size: 88px;
 }
 
 #motto {
+  font-size: 42px;
   margin-top: 15px;
   margin-bottom: 0;
 }

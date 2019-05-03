@@ -1,0 +1,43 @@
+#container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+
+#subcontainer {
+  margin: 0;
+  padding: 40px;
+  min-height: 285px;
+  text-align: center;
+}
+
+#subcontainer h2 {
+  margin: 0;
+  padding: 0;
+}
+
+#subcontainer p {
+  margin: 0;
+  padding: 0;
+}
+
+#president {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+#vicepres,
+#secretary,
+#treasurer {
+  display: inline-block;
+  width: 33%;
+  margin: 0;
+  padding: 0;
+}
+
+#note {
+  text-align: center;
+  width: 100%;
+}
